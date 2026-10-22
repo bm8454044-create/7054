@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vishav Book | Handwriting Work From Home</title>
+  <meta name="description" content="Turn neat handwriting into flexible work-from-home projects with materials delivered and fast payments." />
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1690801925769899');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1690801925769899&ev=PageView&noscript=1"
+    />
+  </noscript>
+  <!-- End Meta Pixel Code -->
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..800;1,9..40,400..800&family=Kalam:wght@400;700&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --bg-cream: #FFFDF9;
+      --bg-surface: #FFFFFF;
+      --bg-warm: #F4EFE6;
+      --teal-dark: #123735;
+      --teal-deep: #0A2221;
+      --teal-medium: #1C524F;
+      --coral: #FF5A36;
+      --coral-hover: #E84522;
+      --gold: #FFB319;
+      --text-main: #1D2A2A;
+      --text-muted: #586968;
+      --border-soft: rgba(18, 55, 53, 0.1);
+      --font-main: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --font-hand: 'Kalam', cursive;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: var(--font-main);
+      background-color: var(--bg-cream);
+      color: var(--text-main);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1160px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* 3D Bounce and Dynamic Color-Shift Button */
+    .btn-3d-bounce {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      font-weight: 700;
+      font-size: 1.05rem;
+      letter-spacing: 0.02em;
+      padding: 14px 30px;
+      border-radius: 9999px;
+      color: #FFFFFF !important;
+      text-decoration: none;
+      border: 2px solid rgba(255, 255, 255, 0.35);
+      background: linear-gradient(135deg, #FF5A36, #FF7B39, #FF3D1F, #E82C0C);
+      background-size: 260% 260%;
+      box-shadow: 0 7px 0 #9E1C03, 0 14px 22px rgba(232, 44, 12, 0.35);
+      cursor: pointer;
+      position: relative;
+      transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.3s ease;
+      animation: btnColorShift 4s ease infinite, btnBounce3D 2.4s cubic-bezier(0.28, 0.84, 0.42, 1) infinite;
+    }
+
+    .btn-3d-bounce:hover {
+      animation-play-state: paused;
+      transform: translateY(-3px);
+      box-shadow: 0 10px 0 #9E1C03, 0 20px 28px rgba(232, 44, 12, 0.45);
+    }
+
+    .btn-3d-bounce:active {
+      transform: translateY(4px);
+      box-shadow: 0 3px 0 #9E1C03, 0 6px 12px rgba(232, 44, 12, 0.35);
+    }
+
+    .btn-3d-bounce svg {
+      transition: transform 0.25s ease;
+    }
+
+    .btn-3d-bounce:hover svg {
+      transform: translateX(4px);
+    }
+
+    /* Alternative Light Variant for dark CTA section */
+    .btn-3d-light {
+      background: linear-gradient(135deg, #FFFFFF, #FFF3EB, #FFE2CF);
+      color: #9E1C03 !important;
+      border: 2px solid #FFFFFF;
+      box-shadow: 0 7px 0 #CFB0A3, 0 14px 22px rgba(0, 0, 0, 0.25);
+      animation: btnBounce3D 2.4s cubic-bezier(0.28, 0.84, 0.42, 1) infinite;
+    }
+
+    .btn-3d-light:hover {
+      box-shadow: 0 10px 0 #CFB0A3, 0 20px 28px rgba(0, 0, 0, 0.3);
+    }
+
+    .btn-3d-light:active {
+      box-shadow: 0 3px 0 #CFB0A3, 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    @keyframes btnColorShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    @keyframes btnBounce3D {
+      0%, 100% {
+        transform: translateY(0);
+        box-shadow: 0 7px 0 #9E1C03, 0 14px 22px rgba(232, 44, 12, 0.35);
+      }
+      50% {
+        transform: translateY(-7px);
+        box-shadow: 0 14px 0 #9E1C03, 0 24px 30px rgba(232, 44, 12, 0.45);
+      }
+    }
+
+    /* Header */
+    .site-header {
+      padding: 18px 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(255, 253, 249, 0.92);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border-soft);
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .brand {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: var(--teal-dark);
+      letter-spacing: -0.02em;
+    }
+
+    .brand span {
+      color: var(--coral);
+    }
+
+    /* Hero Section */
+    .hero {
+      padding: 60px 0 80px;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 50px;
+      align-items: center;
+    }
+
+    .badge-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 14px;
+      border-radius: 9999px;
+      background: rgba(255, 90, 54, 0.12);
+      color: var(--coral);
+      font-weight: 700;
+      font-size: 0.85rem;
+      margin-bottom: 20px;
+    }
+
+    .badge-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--coral);
+      animation: pulse 1.8s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.85); }
+    }
+
+    .hero h1 {
+      font-size: clamp(2.4rem, 5vw, 3.8rem);
+      line-height: 1.12;
+      font-weight: 800;
+      color: var(--teal-dark);
+      margin-bottom: 20px;
+      letter-spacing: -0.025em;
+    }
+
+    .hero h1 em {
+      font-family: var(--font-hand);
+      color: var(--coral);
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    .hero-desc {
+      font-size: 1.15rem;
+      color: var(--text-muted);
+      margin-bottom: 32px;
+      max-width: 540px;
+    }
+
+    .hero-actions {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+    }
+
+    .link-secondary {
+      font-weight: 600;
+      color: var(--teal-medium);
+      text-decoration: underline;
+      text-underline-offset: 4px;
+      transition: color 0.2s;
+    }
+
+    .link-secondary:hover {
+      color: var(--coral);
+    }
+
+    .pill-list {
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+      list-style: none;
+    }
+
+    .pill-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--teal-medium);
+    }
+
+    /* Note Card Preview */
+    .note-mockup-wrapper {
+      position: relative;
+    }
+
+    .note-mockup {
+      background: #FFFFFF;
+      border-radius: 18px;
+      padding: 34px 30px;
+      box-shadow: 0 20px 45px rgba(18, 55, 53, 0.12);
+      border: 1px solid rgba(18, 55, 53, 0.08);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .note-badge {
+      display: inline-block;
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--coral);
+      background: rgba(255, 90, 54, 0.1);
+      padding: 4px 10px;
+      border-radius: 6px;
+      margin-bottom: 14px;
+    }
+
+    .note-mockup h3 {
+      font-size: 1.8rem;
+      color: var(--teal-dark);
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 8px;
+    }
+
+    .note-mockup p.hand-sub {
+      font-family: var(--font-hand);
+      font-size: 1.25rem;
+      color: var(--teal-medium);
+      margin-bottom: 22px;
+    }
+
+    .note-items {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 26px;
+    }
+
+    .note-items li {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      padding: 8px 12px;
+      background: var(--bg-cream);
+      border-radius: 8px;
+      color: var(--teal-dark);
+    }
+
+    .note-items li span {
+      color: var(--coral);
+      font-weight: 800;
+      font-size: 0.85rem;
+    }
+
+    .note-footer {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      border-top: 1px dashed var(--border-soft);
+      padding-top: 16px;
+    }
+
+    /* Floats */
+    .float-badge {
+      position: absolute;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: #FFFFFF;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 1.3rem;
+      color: var(--coral);
+      z-index: 2;
+    }
+
+    .float-badge-1 {
+      top: -16px;
+      left: -16px;
+    }
+
+    .float-badge-2 {
+      bottom: -16px;
+      right: -16px;
+      color: var(--teal-dark);
+    }
+
+    /* Section Headers */
+    .section {
+      padding: 70px 0;
+    }
+
+    .section-white {
+      background: #FFFFFF;
+    }
+
+    .section-warm {
+      background: var(--bg-warm);
+    }
+
+    .section-head {
+      text-align: center;
+      max-width: 680px;
+      margin: 0 auto 50px;
+    }
+
+    .section-head .tag {
+      font-weight: 700;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--coral);
+      margin-bottom: 8px;
+      display: block;
+    }
+
+    .section-head h2 {
+      font-size: clamp(2rem, 3.5vw, 2.7rem);
+      color: var(--teal-dark);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 12px;
+      line-height: 1.2;
+    }
+
+    .section-head p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+    }
+
+    /* Benefits Grid */
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 28px;
+    }
+
+    .card-benefit {
+      background: var(--bg-cream);
+      border-radius: 16px;
+      padding: 32px 28px;
+      border: 1px solid var(--border-soft);
+      transition: transform 0.25s, box-shadow 0.25s;
+    }
+
+    .card-benefit:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 16px 30px rgba(18, 55, 53, 0.08);
+    }
+
+    .icon-box {
+      width: 52px;
+      height: 52px;
+      border-radius: 12px;
+      background: rgba(255, 90, 54, 0.12);
+      color: var(--coral);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .card-benefit h3 {
+      font-size: 1.3rem;
+      color: var(--teal-dark);
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+
+    .card-benefit p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    /* Steps */
+    .step-card {
+      background: #FFFFFF;
+      padding: 34px 28px;
+      border-radius: 18px;
+      border: 1px solid var(--border-soft);
+      position: relative;
+    }
+
+    .step-number {
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: var(--coral);
+      margin-bottom: 14px;
+      line-height: 1;
+    }
+
+    .step-card h3 {
+      font-size: 1.25rem;
+      color: var(--teal-dark);
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+
+    .step-card p {
+      color: var(--text-muted);
+      font-size: 0.92rem;
+      margin-bottom: 18px;
+    }
+
+    .step-note {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--teal-medium);
+      background: var(--bg-warm);
+      padding: 4px 10px;
+      border-radius: 6px;
+    }
+
+    /* Plans */
+    .plans-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+      gap: 30px;
+      margin-bottom: 40px;
+    }
+
+    .plan-card {
+      background: #FFFFFF;
+      border-radius: 20px;
+      padding: 38px 30px;
+      border: 1px solid var(--border-soft);
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.04);
+    }
+
+    .plan-card.featured {
+      border: 2px solid var(--coral);
+      transform: scale(1.03);
+      box-shadow: 0 18px 40px rgba(255, 90, 54, 0.15);
+    }
+
+    .plan-badge {
+      position: absolute;
+      top: -14px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--coral);
+      color: #FFFFFF;
+      font-size: 0.75rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 4px 16px;
+      border-radius: 9999px;
+    }
+
+    .plan-card h3 {
+      font-size: 1.4rem;
+      color: var(--teal-dark);
+      font-weight: 800;
+      margin-bottom: 6px;
+    }
+
+    .plan-payout {
+      font-size: 2.4rem;
+      font-weight: 800;
+      color: var(--coral);
+      margin: 12px 0 4px;
+      line-height: 1;
+    }
+
+    .plan-payout span {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+
+    .plan-desc {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 24px;
+    }
+
+    .plan-features {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 30px;
+      flex-grow: 1;
+    }
+
+    .plan-features li {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.92rem;
+      color: var(--text-main);
+    }
+
+    .plan-features li svg {
+      color: #10B981;
+      flex-shrink: 0;
+    }
+
+    .trust-row {
+      display: flex;
+      justify-content: center;
+      gap: 32px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--teal-medium);
+    }
+
+    .trust-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* People / Team */
+    .people-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 20px;
+    }
+
+    .person-card {
+      background: var(--bg-cream);
+      border-radius: 14px;
+      overflow: hidden;
+      border: 1px solid var(--border-soft);
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .person-card:hover {
+      transform: translateY(-4px);
+    }
+
+    .person-card img {
+      width: 100%;
+      height: 190px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .person-info {
+      padding: 12px 10px;
+    }
+
+    .person-info h4 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--teal-dark);
+    }
+
+    .person-info p {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    /* CTA Section */
+    .cta-banner {
+      background: linear-gradient(135deg, var(--teal-dark), var(--teal-deep));
+      color: #FFFFFF;
+      padding: 80px 20px;
+      text-align: center;
+      border-radius: 24px;
+      margin: 40px auto 70px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .cta-banner h2 {
+      font-size: clamp(2.2rem, 4.5vw, 3.2rem);
+      font-weight: 800;
+      margin-bottom: 16px;
+      letter-spacing: -0.02em;
+    }
+
+    .cta-banner p {
+      font-size: 1.15rem;
+      color: rgba(255, 255, 255, 0.82);
+      max-width: 580px;
+      margin: 0 auto 34px;
+    }
+
+    /* Footer */
+    .footer {
+      background: #FFFFFF;
+      border-top: 1px solid var(--border-soft);
+      padding: 30px 0;
+      text-align: center;
+    }
+
+    .footer-inner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .footer p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    /* Responsive */
+    @media (max-width: 860px) {
+      .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+      .plan-card.featured {
+        transform: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Site Navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top">Vishav <span>Book</span></a>
+      <a class="btn-3d-bounce" href="https://t.me/+u6oMoqfhVfozYzdl" target="_blank" rel="noopener noreferrer">
+        Apply now
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="5" y1="12" x2="19" y2="12"></line>
+          <polyline points="12 5 19 12 12 19"></polyline>
+        </svg>
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section id="top" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <div class="badge-pill">
+            <span class="badge-dot"></span>
+            We are hiring creators
+          </div>
+          <h1>Your <em>Handwriting</em><br />Can Earn You.</h1>
+          <p class="hero-desc">
+            Turn your neat handwriting into a flexible work opportunity. Write assignments, notebook pages and educational content from home with free material delivery.
+          </p>
+          <div class="hero-actions">
+            <a class="btn-3d-bounce" href="https://t.me/+u6oMoqfhVfozYzdl" target="_blank" rel="noopener noreferrer">
+              Apply via Telegram
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </a>
+            <a class="link-secondary" href="#plans">Choose your plan</a>
+          </div>
+          <ul class="pill-list">
+            <li class="pill-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Work From Home
+            </li>
+            <li class="pill-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Flexible Hours
+            </li>
+            <li class="pill-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Paid in 24 Hours
+            </li>
+          </ul>
+        </div>
+
+        <div class="note-mockup-wrapper">
+          <div class="float-badge float-badge-1">✍️</div>
+          <div class="float-badge float-badge-2">₹</div>
+          <div class="note-mockup">
+            <span class="note-badge">Handwriting Project</span>
+            <h3>Beautiful<br />Notes</h3>
+            <p class="hand-sub">Write neatly. Create value.</p>
+            <ul class="note-items">
+              <li><span>01</span> Mathematics Notes</li>
+              <li><span>02</span> Science &amp; Biology</li>
+              <li><span>03</span> English Assignments</li>
+            </ul>
+            <div class="note-footer">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+              Vishav Book Publication &amp; Writing Hub
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Join Us -->
+    <section class="section section-white">
+      <div class="container">
+        <div class="section-head">
+          <span class="tag">Why Join Us</span>
+          <h2>Write. Create. Earn.</h2>
+          <p>Everything is set up so you can start writing and getting paid immediately.</p>
+        </div>
+        <div class="grid-3">
+          <div class="card-benefit">
+            <div class="icon-box">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+            </div>
+            <h3>Your Handwriting Matters</h3>
+            <p>If you have clear, readable handwriting, turn your skills into a reliable daily or monthly income source.</p>
+          </div>
+          <div class="card-benefit">
+            <div class="icon-box">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+            </div>
+            <h3>Work From Anywhere</h3>
+            <p>Zero commuting. Complete assigned writing tasks from home during your own free hours.</p>
+          </div>
+          <div class="card-benefit">
+            <div class="icon-box">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
+            </div>
+            <h3>Direct UPI &amp; Bank Transfer</h3>
+            <p>Once your pages are reviewed, payments are transferred within 24 hours without delays.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3 Simple Steps -->
+    <section class="section section-warm">
+      <div class="container">
+        <div class="section-head">
+          <span class="tag">Simple Process</span>
+          <h2>Start Earning in 3 Steps</h2>
+          <p>From joining our channel to receiving your first payout.</p>
+        </div>
+        <div class="grid-3">
+          <div class="step-card">
+            <div class="step-number">01</div>
+            <h3>Join Our Telegram Channel</h3>
+            <p>Click the button, enter our official channel and read the welcome guidelines. Free to join.</p>
+            <div class="step-note">Takes 30 seconds</div>
+          </div>
+          <div class="step-card">
+            <div class="step-number">02</div>
+            <h3>Register &amp; Receive Material</h3>
+            <p>Select your writing plan. We courier official notebooks and stationery right to your address.</p>
+            <div class="step-note">Free home delivery</div>
+          </div>
+          <div class="step-card">
+            <div class="step-number">03</div>
+            <h3>Submit &amp; Get Paid</h3>
+            <p>Handwrite the pages at your pace, ship them back, and receive direct payment within 24 hours.</p>
+            <div class="step-note">Direct 24-hr payout</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing / Plans -->
+    <section id="plans" class="section section-white">
+      <div class="container">
+        <div class="section-head">
+          <span class="tag">Project Plans</span>
+          <h2>Choose Your Earning Level</h2>
+          <p>Pick the package that matches your available writing hours.</p>
+        </div>
+        <div class="plans-grid">
+          <!-- Starter -->
+          <div class="plan-card">
+            <h3>Starter Plan</h3>
+            <div class="plan-payout">₹22,000 <span>payout</span></div>
+            <div class="plan-desc">200 pages · 30 days to complete</div>
+            <ul class="plan-features">
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Beginner friendly</li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Free courier delivery</li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> 24-hour payout</li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Refundable registration</li>
+            </ul>
+            <a class="btn-3d-bounce" href="https://t.me/+u6oMoqfhVfozYzdl" target="_blank" rel="noopener noreferrer">Select Starter</a>
+          </div>
+
+          <!-- Standard -->
+          <div class="plan-card featured">
+            <div class="plan-badge">Most Popular</div>
+            <h3>Standard Plan</h3>
+            <div class="plan-payout">₹30,000 <span>payout</span></div>
+            <div class="plan-desc">300 pages · 45 days to complete</div>
+            <ul class="plan-features">
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Most chosen plan</li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Priority doorstep shipping</li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> 24-hour payout</li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Dedicated support coordinator</li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Bonus ₹2,000 on on-time completion</li>
+            </ul>
+            <a class="btn-3d-bounce" href="https://t.me/+u6oMoqfhVfozYzdl" target="_blank" rel="noopener noreferrer">Select Standard</a>
+          </div>
+
+          <!-- Premium -->
+          <div class="plan-card">
+            <h3>Premium Plan</h3>
+            <div class="plan-payout">₹45,000 <span>payout</span></div>
+            <div class="plan-desc">450 pages · 60 days to complete</div>
+            <ul class="plan-features">
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Highest payout tier</li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Priority express shipping</li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> 1-on-1 writing mentor</li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Bonus ₹5,000 on on-time completion</li>
+            </ul>
+            <a class="btn-3d-bounce" href="https://t.me/+u6oMoqfhVfozYzdl" target="_blank" rel="noopener noreferrer">Select Premium</a>
+          </div>
+        </div>
+
+        <div class="trust-row">
+          <div class="trust-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            100% Refundable Registration
+          </div>
+          <div class="trust-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+            Free Home Delivery (19,000+ Pincodes)
+          </div>
+          <div class="trust-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
+            Direct UPI &amp; Bank Transfer
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Employees / Creators -->
+    <section class="section section-warm">
+      <div class="container">
+        <div class="section-head">
+          <span class="tag">Our Team</span>
+          <h2>Meet Our Active Creators</h2>
+          <p>Real members earning with neat handwriting every single month.</p>
+        </div>
+        <div class="people-grid">
+          <div class="person-card">
+            <img src="https://layout-loomer-brand.lovable.app/images/nipul-modi.jpg" alt="Nipul Modi" loading="lazy" />
+            <div class="person-info">
+              <h4>Nipul Modi</h4>
+              <p>Handwriting Creator</p>
+            </div>
+          </div>
+          <div class="person-card">
+            <img src="https://layout-loomer-brand.lovable.app/images/priya-singh.jpg" alt="Priya Singh" loading="lazy" />
+            <div class="person-info">
+              <h4>Priya Singh</h4>
+              <p>Notes Creator</p>
+            </div>
+          </div>
+          <div class="person-card">
+            <img src="https://layout-loomer-brand.lovable.app/images/aman-verma.jpg" alt="Aman Verma" loading="lazy" />
+            <div class="person-info">
+              <h4>Aman Verma</h4>
+              <p>Content Writer</p>
+            </div>
+          </div>
+          <div class="person-card">
+            <img src="https://layout-loomer-brand.lovable.app/images/neha-gupta.jpg" alt="Neha Gupta" loading="lazy" />
+            <div class="person-info">
+              <h4>Neha Gupta</h4>
+              <p>Handwriting Creator</p>
+            </div>
+          </div>
+          <div class="person-card">
+            <img src="https://layout-loomer-brand.lovable.app/images/arjun-kumar.jpg" alt="Arjun Kumar" loading="lazy" />
+            <div class="person-info">
+              <h4>Arjun Kumar</h4>
+              <p>Notes Creator</p>
+            </div>
+          </div>
+          <div class="person-card">
+            <img src="https://layout-loomer-brand.lovable.app/images/anjali-mehta.jpg" alt="Anjali Mehta" loading="lazy" />
+            <div class="person-info">
+              <h4>Anjali Mehta</h4>
+              <p>Content Creator</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <div class="container">
+      <section class="cta-banner">
+        <h2>Ready To Start Writing?</h2>
+        <p>Applications are now open for this batch. Click below to chat with our coordination team on Telegram.</p>
+        <a class="btn-3d-bounce btn-3d-light" href="https://t.me/+u6oMoqfhVfozYzdl" target="_blank" rel="noopener noreferrer">
+          Join Telegram &amp; Apply Now
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="22" y1="2" x2="11" y2="13"></line>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+          </svg>
+        </a>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="brand" href="#top">Vishav <span>Book</span></a>
+      <p>Write neatly. Create value. Earn from home.</p>
+      <a class="btn-3d-bounce" style="padding: 8px 20px; font-size: 0.9rem;" href="https://t.me/+u6oMoqfhVfozYzdl" target="_blank" rel="noopener noreferrer">
+        ✈ Join Telegram
+      </a>
+    </div>
+  </footer>
+
+</body>
+</html>
